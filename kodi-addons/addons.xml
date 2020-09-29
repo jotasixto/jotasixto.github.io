@@ -22,7 +22,7 @@
         <fanart>resources/fanart.jpg</fanart>
       </assets>
     </extension>
-    <extension point="xbmc.addon.repository">
+    <extension point="xbmc.addon.repository" name="jotasixto Kodi Add-ons Repository">
       <info>https://jotasixto.github.io/kodi-addons/addons.xml</info>
       <checksum>https://jotasixto.github.io/kodi-addons/addons.xml.md5</checksum>
       <datadir>https://jotasixto.github.io/kodi-addons/</datadir>
