@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+  <addon id="repository.kodi.jotasixto" name="jotasixto repository" version="0.1.0" provider-name="jotasixto">
+    <extension point="xbmc.addon.metadata">
+      <platform>linux</platform>
+      <summary lang="en_GB"></summary>
+      <description lang="en_GB">jotasixto Kodi Add-ons Repository</description>
+      <disclaimer lang="en_GB"></disclaimer>
+      <language>en</language>
+      <license>GPL-3.0-or-later</license>
+      <website>https://github.com/jotasixto/jotasixto.github.io</website>
+      <email>juan@sixtoanello.com</email>
+      <source>https://github.com/jotasixto/jotasixto.github.io</source>
+    </extension>
+    <extension point="xbmc.addon.repository" name="jotasixto Kodi Add-ons Repository">
+      <info>https://jotasixto.github.io/kodi-addons/addons.xml</info>
+      <checksum>https://jotasixto.github.io/kodi-addons/addons.xml.md5</checksum>
+      <datadir>https://jotasixto.github.io/kodi-addons/</datadir>
+    </extension>
+  </addon>
   <addon id="plugin.windscribe.cli" name="Control Windscribe CLI" version="0.1.0" provider-name="jotasixto">
     <requires>
       <import addon="xbmc.python" version="2.25.0"/>
@@ -21,11 +39,6 @@
         <icon>resources/icon.png</icon>
         <fanart>resources/fanart.jpg</fanart>
       </assets>
-    </extension>
-    <extension point="xbmc.addon.repository" name="jotasixto Kodi Add-ons Repository">
-      <info>https://jotasixto.github.io/kodi-addons/addons.xml</info>
-      <checksum>https://jotasixto.github.io/kodi-addons/addons.xml.md5</checksum>
-      <datadir>https://jotasixto.github.io/kodi-addons/</datadir>
     </extension>
   </addon>
 </addons>
